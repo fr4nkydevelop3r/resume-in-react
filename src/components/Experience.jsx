@@ -5,7 +5,7 @@ import PStyled from '../styled/PStyled';
 const Experience = props => (
     <div className='Experience'>
         <div className='Experience-container'>
-            <H2Styled name="Experience"/>
+            <H2Styled name="Experiencee"/>
             {props.data.map((exp, index) => (
                 <div className='Experience-item' key={`Exp-${index}`}>
                      <H3Styled name={exp.company} /> 
