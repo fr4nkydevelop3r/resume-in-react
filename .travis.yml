@@ -1,7 +1,8 @@
 language: node_js
-cache:
-  directories:  
-    - ~!@/.npm
+cache: 
+  npm: true
+  directories:
+    - ~/.cache
 node_js:
   - '9'
 git:
